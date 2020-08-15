@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'medical_o_19581.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "medical_o_19581.settings")
 
 application = get_wsgi_application()
